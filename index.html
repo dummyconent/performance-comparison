@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Performance Reports — Drupal vs Next.js</title>
+<style>
+:root{--brand:#587ABC;--light:#A2BCE2;--ink:#18243a;--muted:#667085;--line:#dbe5f2;--shadow:0 12px 35px rgba(31,55,92,.08)}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:linear-gradient(180deg,#edf3fb 0,#f8fafc 300px);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);line-height:1.55}.container{width:min(1180px,calc(100% - 32px));margin:auto}.hero{padding:42px 0 28px}.hero-card{position:relative;overflow:hidden;background:linear-gradient(135deg,#13213b,#233f70 55%,var(--brand));color:#fff;border-radius:24px;padding:36px 40px;box-shadow:0 22px 55px rgba(31,55,92,.22)}.hero-card:after{content:"";position:absolute;width:380px;height:380px;border-radius:50%;right:-100px;top:-190px;background:rgba(162,188,226,.16)}.logo{position:relative;z-index:1;display:inline-block;background:#fff;border-radius:14px;padding:12px 16px;box-shadow:0 6px 20px rgba(0,0,0,.12)}.logo img{width:164px;height:51px;display:block}.eyebrow{position:relative;z-index:1;margin-top:28px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#dbe8fb;font-weight:800}.hero h1{position:relative;z-index:1;font-size:clamp(30px,4vw,49px);line-height:1.08;margin:8px 0 0}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;padding-bottom:48px}.card{display:block;background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px;text-decoration:none;color:inherit;box-shadow:var(--shadow);transition:transform .15s,border-color .15s}.card:hover{transform:translateY(-2px);border-color:var(--light)}.card h2{margin:0 0 6px;font-size:22px}.card p{margin:0 0 16px;color:var(--muted)}.card span{color:var(--brand);font-weight:700}@media(max-width:600px){.hero-card{padding:28px 22px}}
+</style>
+</head>
+<body>
+<header class="hero container">
+  <div class="hero-card">
+    <div class="logo"><img src="logo.svg" alt="Logo"></div>
+    <div class="eyebrow">Drupal vs Next.js</div>
+    <h1>Performance Reports</h1>
+  </div>
+</header>
+<main class="container cards">
+  <a class="card" href="performance-comparison.html">
+    <h2>Performance Comparison</h2>
+    <p>Overall site performance, Drupal vs Next.js.</p>
+    <span>View report →</span>
+  </a>
+  <a class="card" href="article-performance-comparison.html">
+    <h2>Article Performance Comparison</h2>
+    <p>Article page performance, Drupal vs Next.js.</p>
+    <span>View report →</span>
+  </a>
+</main>
+</body>
+</html>
